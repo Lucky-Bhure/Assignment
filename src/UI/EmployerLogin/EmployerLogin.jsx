@@ -3,7 +3,7 @@ import React from 'react'
 const EmployerLogin = () => {
   return (
     <div style={{height: "90vh", display:"flex", justifyContent:"center", alignItems: "center", flexDirection:"column"}}>
-        EmployerLogin
+        <h1>EmployerLogin</h1>
     </div>
   )
 }
