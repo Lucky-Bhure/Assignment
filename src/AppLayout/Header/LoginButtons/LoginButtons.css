@@ -1,0 +1,26 @@
+.btn {
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+}
+
+.employer {
+    background-color: yellow;
+}
+
+.employer:hover {
+    background-color: rgb(1, 1, 129);
+    color: aliceblue;
+}
+
+.jobseeker {
+    background-color: white;
+    border: 1px solid rgb(105, 105, 105);
+}
+
+.jobseeker:hover {
+    background-color: yellow;
+    border: none;
+}

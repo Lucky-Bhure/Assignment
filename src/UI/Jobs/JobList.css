@@ -1,0 +1,152 @@
+.jobs-pages {
+    box-shadow: black 1px 2px 3px;
+    width: calc(100% - 2rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+
+.page {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.show {
+    font-weight: bold;
+}
+
+.job-no {
+    border: 1px solid black;
+    width: 25%;
+    text-align: center;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.job-list {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: fit-content;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.job-card {
+    background:linear-gradient(rgba(203, 239, 249, 0.87) ,#f2fcff);
+    width: 85%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 0px 1.5rem 1.5rem 1.5rem;
+    box-shadow: rgb(0, 0, 0) 1px 2px 5px;
+}
+
+.job-type {
+    align-self: end;
+    background-color: darkblue;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0px 1rem 1rem 1rem;
+}
+
+.company-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.company-info > img {
+    width: 10%;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.job-title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.company-name {
+    margin-top: 5px;
+    font-size: large;
+}
+
+.job-info {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.flex {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 0.5rem
+}
+
+.key-skills-container {
+    display: flex;
+    margin-top: 0.5rem;
+    gap: 0.5rem;
+}
+
+.key-skills-heading {
+    font-weight: bold;
+    margin-bottom: 0.5rem
+}
+
+.key-skills-main {
+    display: flex;
+}
+
+.post-time {
+    align-self: end;
+    padding-right: 1rem;
+}
+
+.post-time > span {
+    color: rgb(247, 149, 2);
+}
+
+.job-apply {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.job-menu {
+    border-radius: 1rem 0rem 0rem 1rem;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.45rem 1rem;
+    background-color: aqua ;
+    box-shadow: black 1px 2px 5px;
+}
+
+.apply-btn {
+    border-radius: 0rem 1rem 1rem 0rem;
+    background-color: rgb(6, 6, 36);
+    color: white;
+    border: none;
+    width: 48%;
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5rem 1rem;
+    box-shadow: black 1px 2px 5px;
+}

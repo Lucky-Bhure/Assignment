@@ -1,0 +1,16 @@
+.pages {
+    margin-top: 0.5rem;
+    display: flex;
+}
+
+.pages > .no {
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+.active-page {
+    background-color: aqua;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+}

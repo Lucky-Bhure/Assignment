@@ -1,0 +1,86 @@
+.jobs-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.filter-container {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.jobs-field {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advertisement-container {
+    width: 22%;
+    height: 40vh;
+    box-shadow: rgb(0, 0, 0) 1px 2px 4px;
+    font-size: x-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: start;    
+}
+
+.filter-section {
+    width: 100%;
+    height: inherit;
+    box-shadow: rgb(0, 0, 0) 1px 2px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.main-filter {
+    padding: 2rem 2rem 0.5rem 2rem;
+}
+
+.main-filter-heading {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.main-filter-input {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem ;
+    width: 85%;
+    border-radius: 5px;
+}
+
+.keyword-div {
+    border-top: 1px solid  #dcdcdc ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+}
+
+.quick-job-heading {
+    color: rgb(3, 16, 118);
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.quick-job-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    height: fit-content;
+    margin: 1rem 0rem;
+    padding: 0rem 1rem ;
+}

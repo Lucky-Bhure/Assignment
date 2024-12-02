@@ -1,0 +1,70 @@
+.job-page {
+    width: 100%;
+}
+
+.jobs-container {
+    padding: 0.5rem 2rem;
+    width: 100%;
+}
+
+.candidate-notification {
+    color: green;
+    padding: 0.5rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.notification {
+    width: 100%;
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to right ,rgb(11, 11, 100),rgb(37, 208, 215));
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+}
+
+.input-field {
+    width: 25%;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: black 1px 2px 3px;
+    font-size: medium;
+}
+
+.selection-box {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: black 1px 2px 3px;
+    font-size: small;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-btn {
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+    font-size: medium;
+}
+
+.jobs-Container {
+    width: 100%;
+    height: inherit;
+    padding: 1.5rem 0rem;
+    display: flex;
+    justify-content: space-around;
+}
