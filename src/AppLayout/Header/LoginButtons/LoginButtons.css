@@ -24,3 +24,8 @@
     background-color: yellow;
     border: none;
 }
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
